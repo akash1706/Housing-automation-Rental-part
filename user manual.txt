@@ -9,3 +9,5 @@ password:1234
 renter:
 sujana@gmail.com
 password:123
+
+this web site have  4 type of users such as : ADMIN , user/owner , renter and public .
