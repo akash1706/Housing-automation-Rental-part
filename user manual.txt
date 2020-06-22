@@ -1,0 +1,11 @@
+ADMIN
+a@gmail.com
+password:1
+
+USER:
+akash@gmail.com
+password:1234
+
+renter:
+sujana@gmail.com
+password:123

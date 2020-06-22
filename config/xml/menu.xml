@@ -1,0 +1,304 @@
+<Menus>
+
+<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Administration</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>
+			<Permission>ROLE_C</Permission>
+			<Permission>ROLE_U</Permission>
+			<Permission>ROLE_D</Permission>
+			<Permission>PERMISSION_C</Permission>
+			<Permission>PERMISSION_U</Permission>
+			<Permission>PERMISSION_D</Permission>
+			<Permission>DISCIPLINE_C</Permission>
+			<Permission>DISCIPLINE_U</Permission>
+			<Permission>DISCIPLINE_D</Permission>
+			<Permission>SCHOOL_C</Permission>
+			<Permission>SCHOOL_U</Permission>
+			<Permission>SCHOOL_D</Permission>
+			<Permission>POSITION_C</Permission>
+			<Permission>POSITION_U</Permission>
+			<Permission>POSITION_D</Permission>
+		</Permissions>
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Role Related</Title>
+			<Permissions>
+				<Permission>ROLE_C</Permission>
+				<Permission>ROLE_U</Permission>
+				<Permission>ROLE_D</Permission>
+				<Permission>PERMISSION_C</Permission>
+				<Permission>PERMISSION_U</Permission>
+				<Permission>PERMISSION_D</Permission>
+			</Permissions>
+		</Menu>
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Role</Title>
+				<Link>role.php</Link>
+				<Permissions>
+					<Permission>ROLE_C</Permission>
+					<Permission>ROLE_U</Permission>
+					<Permission>ROLE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Permission</Title>
+				<Link>permission.php</Link>
+				<Permissions>
+					<Permission>PERMISSION_C</Permission>
+					<Permission>PERMISSION_U</Permission>
+					<Permission>PERMISSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Setup Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>
+				<Permission>DISCIPLINE_C</Permission>
+				<Permission>DISCIPLINE_U</Permission>
+				<Permission>DISCIPLINE_D</Permission>
+				<Permission>SCHOOL_C</Permission>
+				<Permission>SCHOOL_U</Permission>
+				<Permission>SCHOOL_D</Permission>
+				<Permission>POSITION_C</Permission>
+				<Permission>POSITION_U</Permission>
+				<Permission>POSITION_D</Permission>
+			</Permissions>
+		</Menu>
+
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage User</Title>
+				<Link>user.php</Link>
+				<Permissions>
+					<Permission>USER_C</Permission>
+					<Permission>USER_U</Permission>
+					<Permission>USER_D</Permission>
+				</Permissions>
+			</Menu>
+			
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Position</Title>
+				<Link>position.php</Link>
+				<Permissions>
+					<Permission>POSITION_C</Permission>
+					<Permission>POSITION_U</Permission>
+					<Permission>POSITION_D</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- User -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>User</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_R</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>
+		</Permissions>
+	</Menu>
+
+		<Menu>
+			<ParentMenu>User</ParentMenu>
+			<Title>User Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_R</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>
+			</Permissions>
+		</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Home</Title>
+				<Link>home.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>User Details</Title>
+				<Link>user_details.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Logout</Title>
+				<Link>logout.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+			<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Rent and sells</Title>
+		<Permissions>
+			<Permission>RENTANDSELLS_C</Permission>
+			<Permission>RENTANDSELLS_R</Permission>
+			<Permission>RENTANDSELLS_U</Permission>									
+			<Permission>RENTANDSELLS_D</Permission>
+			<Permission>RENT_C</Permission>
+			<Permission>RENT_R</Permission>
+			<Permission>RENT_U</Permission>
+			<Permission>RENT_D</Permission>
+			<Permission>SELLS_C</Permission>
+			<Permission>SELLS_R</Permission>
+			<Permission>SELLS_U</Permission>
+			<Permission>SELLS_D</Permission>	
+					
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>Rent and sells</ParentMenu>
+		<Title>RENT or BUY</Title>
+		<Permissions>
+			<Permission>RENT_C</Permission>
+			<Permission>RENT_R</Permission>
+			<Permission>RENT_U</Permission>
+			<Permission>RENT_D</Permission>
+			<Permission>SELLS_C</Permission>
+			<Permission>SELLS_R</Permission>
+			<Permission>SELLS_U</Permission>
+			<Permission>SELLS_D</Permission>
+
+			
+		</Permissions>
+	</Menu>
+       
+       <Menu>
+		<ParentMenu>RENT or BUY</ParentMenu>
+
+		<Title>buy</Title>
+		<Link>sells.php</Link>
+		<Permissions>
+			<Permission>SELLS_C</Permission>
+			<Permission>SELLS_R</Permission>
+			<Permission>SELLS_U</Permission>
+			<Permission>SELLS_D</Permission>
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>RENT or BUY</ParentMenu>
+		<Title>rent</Title>
+		<Link>rent.php</Link>
+		<Permissions>
+			<Permission>RENT_C</Permission>
+			<Permission>RENT_R</Permission>
+			<Permission>RENT_U</Permission>
+			<Permission>RENT_D</Permission>
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>RENT or BUY</ParentMenu>
+		<Title>setad</Title>
+		<Link>setad.php</Link>
+		<Permissions>
+			<Permission>SETAD_C</Permission>
+			<Permission>SETAD_R</Permission>
+			<Permission>SETAD_U</Permission>
+			<Permission>SETAD_D</Permission>
+		</Permissions>
+	</Menu>
+
+		<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Management</Title>
+		<Permissions>
+			
+			<Permission>MANAGEMENT_C</Permission>
+			<Permission>MANAGEMENT_R</Permission>
+			<Permission>MANAGEMENT_U</Permission>
+			<Permission>MANAGEMENT_D</Permission>
+			<Permission>SEEPAYMENT_C</Permission>
+			<Permission>SEEPAYMENT_R</Permission>
+			<Permission>SEEPAYMENT_U</Permission>
+			<Permission>SEEPAYMENT_D</Permission>
+			<Permission>GIVEPAYMENT_C</Permission>
+			<Permission>GIVEPAYMENT_R</Permission>
+			<Permission>GIVEPAYMENT_U</Permission>
+			<Permission>GIVEPAYMENT_D</Permission>	
+					
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>management</ParentMenu>
+		<Title>Management related</Title>
+		<Permissions>
+			<Permission>MANAGEMENT_C</Permission>
+			<Permission>MANAGEMENT_R</Permission>
+			<Permission>MANAGEMENT_U</Permission>
+			<Permission>MANAGEMENT_D</Permission>
+			<Permission>SEEPAYMENT_C</Permission>
+			<Permission>SEEPAYMENT_R</Permission>
+			<Permission>SEEPAYMENT_U</Permission>
+			<Permission>SEEPAYMENT_D</Permission>
+			<Permission>GIVEPAYMENT_C</Permission>
+			<Permission>GIVEPAYMENT_R</Permission>
+			<Permission>GIVEPAYMENT_U</Permission>
+			<Permission>GIVEPAYMENT_D</Permission>	
+					
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>Management related</ParentMenu>
+		<Title>seepayment</Title>
+		<Link>seepayment.php</Link>
+		<Permissions>
+			
+			<Permission>SEEPAYMENT_C</Permission>
+			<Permission>SEEPAYMENT_R</Permission>
+			<Permission>SEEPAYMENT_U</Permission>
+			<Permission>SEEPAYMENT_D</Permission>
+			
+					
+		</Permissions>
+	</Menu>
+
+	<Menu>
+		<ParentMenu>Management related</ParentMenu>
+		<Title>givepayment</Title>
+		<Link>givepayment.php</Link>
+		<Permissions>
+			<Permission>GIVEPAYMENT_C</Permission>
+			<Permission>GIVEPAYMENT_R</Permission>
+			<Permission>GIVEPAYMENT_U</Permission>
+			<Permission>GIVEPAYMENT_D</Permission>
+					
+		</Permissions>
+	</Menu>
+
+
+</Menus>
